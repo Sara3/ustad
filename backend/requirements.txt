@@ -1,5 +1,30 @@
 Flask==2.3.3
 Flask-CORS==4.0.0
 Werkzeug==2.3.7
+<<<<<<< HEAD
 python-dotenv==1.0.0
 requests==2.31.0
+=======
+Pillow==10.0.1
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Audio processing
+pyaudio==0.2.11
+sounddevice==0.4.6
+wave==0.0.2
+librosa==0.10.1
+
+# Text-to-Speech
+pyttsx3==2.90
+
+# Speech-to-Text (for local Whisper when implemented)
+openai-whisper==20231117
+
+# Image processing for OCR
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+
+# Ollama integration for Gemma
+ollama==0.1.7
+>>>>>>> c7f3152 (Update backend endpoints for image upload workflow - minimal changes)
