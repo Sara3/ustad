@@ -2,6 +2,7 @@ Flask==2.3.3
 Flask-CORS==4.0.0
 Werkzeug==2.3.7
 <<<<<<< HEAD
+<<<<<<< HEAD
 python-dotenv==1.0.0
 requests==2.31.0
 =======
@@ -28,3 +29,6 @@ pytesseract==0.3.10
 # Ollama integration for Gemma
 ollama==0.1.7
 >>>>>>> c7f3152 (Update backend endpoints for image upload workflow - minimal changes)
+=======
+python-dotenv==1.0.0
+>>>>>>> 89975ea (Additional backend updates - fix case sensitivity)
