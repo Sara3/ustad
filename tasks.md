@@ -3,7 +3,7 @@
 ## Core MVP Features
 
 ### Text Input & Processing
-- [ ] Set up Flask project structure with proper blueprints
+- [x] Set up Flask project structure with proper blueprints
 - [ ] Implement image upload endpoint with file validation (jpg, png, pdf)
 - [ ] Use local Gemma model for OCR text extraction from images
 - [ ] Create text input form as alternative to image upload
@@ -25,7 +25,7 @@
 - [ ] Add audio playback of user's recording for review
 
 ### Backend Infrastructure
-- [ ] Set up Ollama integration for local Gemma model
+- [ ] Set up Ollama integration for local Gemma model - in-progress (EZ)
 - [ ] Configure model prompts for OCR and pronunciation scoring tasks
 - [ ] Create database schema for user sessions and text storage
 - [ ] Implement file storage system for uploaded images/audio
