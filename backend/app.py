@@ -10,14 +10,8 @@ def create_app():
     CORS(app)
     
     from blueprints.api import api_bp
-    from blueprints.upload import upload_bp
-    from blueprints.audio import audio_bp
-    from blueprints.text import text_bp
     
     app.register_blueprint(api_bp, url_prefix='/api')
-    app.register_blueprint(upload_bp, url_prefix='/upload')
-    app.register_blueprint(audio_bp, url_prefix='/audio')
-    app.register_blueprint(text_bp, url_prefix='/text')
     
     @app.route('/')
     def index():
